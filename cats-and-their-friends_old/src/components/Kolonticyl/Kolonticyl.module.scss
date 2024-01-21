@@ -1,0 +1,15 @@
+.colonticyl {
+  /* background color, clip to the bottom left edge, internal indent, make the elements in a row */
+
+  background: rgb(241, 240, 240);
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
+  display: flex;
+  width: 250px;
+  gap: 15px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px 8px;
+}

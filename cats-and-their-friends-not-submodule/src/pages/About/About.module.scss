@@ -1,0 +1,28 @@
+@import "../../scss/app.scss"; 
+
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+
+  &__wrap {
+    border-radius: 15px;
+    background: white;
+    text-align: center;
+    color: white;
+    padding: 80px 40px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__p {
+    text-align: left;
+    word-break: break-all;
+    max-width: 800px;
+    width: 100%;
+  }
+}
